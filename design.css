@@ -1,0 +1,29 @@
+*{
+  font-family: 'Poiret One', cursive;
+
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text-background{
+  text-align:center;
+  margin: 0 15px;
+
+}
+
+.font-title{
+  font-family: 'Poiret One', cursive;
+}
+h1{
+  font-family: 'Poiret One', cursive;
+}
+h1,h2, h3{
+  font-family: 'Poiret One', cursive;
+}
+p{
+  font-size: 16px;
+}
