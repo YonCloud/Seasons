@@ -8,6 +8,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  left: -15px;
 }
 .text-background{
   text-align:center;
