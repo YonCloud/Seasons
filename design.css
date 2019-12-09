@@ -5,13 +5,13 @@
 .font-title{
   font-family: 'Poiret One', cursive;
 }
-/*
+
 
 .main-custom{
   padding: 0px 15px;
 
 }
-*/
+
 .container {
   display: flex; /* or inline-flex */
   flex-direction: row;
