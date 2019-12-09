@@ -2,22 +2,45 @@
   font-family: 'Poiret One', cursive;
 
 }
+.font-title{
+  font-family: 'Poiret One', cursive;
+}
+/*
 
+.main-custom{
+  padding: 0px 15px;
+
+}
+*/
 .container {
   display: flex; /* or inline-flex */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   left: -15px;
+
 }
+
+
 .text-background{
   text-align:center;
-  margin: 0 15px;
+  margin: 15px auto;
 
 }
 
-.font-title{
-  font-family: 'Poiret One', cursive;
+
+}
+
+}
+
+.ordenador{
+  color: #000;
+
+}
+
+.nav , li{
+  position: relative;
+  display: block;
 }
 h1{
   font-family: 'Poiret One', cursive;
