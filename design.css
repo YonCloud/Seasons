@@ -6,11 +6,15 @@
   font-family: 'Poiret One', cursive;
 }
 
-
+.toogle-icon{
+  display: flex;
+}
 .main-custom{
   padding: 0px 15px;
 
 }
+
+
 
 .container {
   display: flex; /* or inline-flex */
@@ -20,6 +24,7 @@
   left: -15px;
 
 }
+
 
 
 .text-background{
