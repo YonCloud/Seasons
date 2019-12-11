@@ -55,7 +55,7 @@
             <p>Somos una floreria en donde diseñamos arreglos florales exclusivos para todo tipo de evento.
             </p>
       </div>
-      <ul class="nav ordenador">
+      <ul class="nav">
         <li><a href="./about.html" title="" style="font-weight:bold" >NOSOTROS</a></li>
         <li><a href="./services.html" title="" style="font-weight:bold">TIENDA</a></li>
         <li><a href="./orders.html" title="" style="font-weight:bold">PEDIDOS</a></li>
@@ -178,7 +178,7 @@
 
 
     <div class="grid-item ">
-      <img class="img-responsive" alt="" src="./assets/images/foto1.jpg">
+      <img class="img-responsive" alt="" src="./assets/images/imagen1.jpg">
       <a href="./orders.html" class="project-description">
         <div class="project-text-holder">
           <div class="project-text-inner">
@@ -190,7 +190,7 @@
     </div>
 
     <div class="grid-item">
-      <img class="img-responsive" alt="" src="./assets/images/foto1.jpg">
+      <img class="img-responsive" alt="" src="./assets/images/imagen2.jpg">
       <a href="./project.html" class="project-description">
         <div class="project-text-holder">
           <div class="project-text-inner">
@@ -202,7 +202,7 @@
     </div>
 
     <div class="grid-item">
-      <img class="img-responsive" alt="" src="./assets/images/foto3.jpg">
+      <img class="img-responsive" alt="" src="./assets/images/imagen3.jpg">
       <a href="./orders.html" class="project-description">
         <div class="project-text-holder">
           <div class="project-text-inner">
@@ -462,15 +462,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script src="./bootstrap-swipe-carousel.min.js"></script>
-
-<script type="text/javascript">
-
-$('.my-carousel').carousel().swipeCarousel({
-    // low, medium or high
-    sensitivity: 'high'
-  });
+<script>
+$(document).ready(function() {
+   $("#myCarousel").swiperight(function() {
+      $(this).carousel('prev');
+    });
+   $("#myCarousel").swipeleft(function() {
+      $(this).carousel('next');
+   });
+});
 </script>
+
 </body>
 
 
